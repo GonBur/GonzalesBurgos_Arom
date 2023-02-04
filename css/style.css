@@ -24,8 +24,8 @@ header{
     display: flex;
     width: 100%;
     /* grid-template-columns: 75% 25%; */
-    border-bottom: 0.3rem solid black;
-    border-radius: 0.5rem;
+    border-bottom: 0.1rem solid black;
+    border-radius: 1rem;
     position: static;
 }
 /* button - boton de desplazamiento */
@@ -52,20 +52,22 @@ header >h1{
 header >nav{
    /*  display: none; */
     position: absolute;
-    top: 10%;
+    top: 100%;
     background-color: black;
-    height: 90vh;
+    height: 100vh;
     width: 100vw;
-    left: 100%;
-    transition: left 0.5s;
+    /* left: 0; */
+    transition:  0.3s;
+    overflow: hidden;
 }
 .activo{
-    transition: left 0.5s;
+    transition: all 0.3s;
     /* display: none; */
-    left: 0%;
+    /* left: 100%; */
+    top: 10%;
     background-color: rgb(22, 21, 21);
+    
 }
-
 /*  header >nav >ul >li - cabecera - menu de navegacion ul - listas*/
 header >nav >ul >li{
     margin: 15% 22%;
