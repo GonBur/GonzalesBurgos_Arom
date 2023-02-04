@@ -172,5 +172,58 @@ footer >figure >a >img{
 
 /* modo tablet */
 @media (min-width:767px) and (max-width:1023px) {
-    
+
+/* main - contenido principal */
+main{
+    grid-template-columns: 45% 55%;
+}
+
+/* header - cabecera */
+header{
+    border-bottom: 0.2rem solid black;/*  */
+}
+#boton >span {
+    font-size: 5rem;
+}
+
+/* header >h1 - cabecera y titulo */
+header >h1{
+    font-size: 5rem;
+}    
+
+/*  header >nav >ul >li >a - cabecera - menu de navegacion ul - listas enlaces*/
+header >nav >ul >li >a{
+    font-size: 4.5rem;
+}
+
+/* main >section >figure >img - contenido principal - figura - imagen */
+main > .imagen > figure {
+    width: 100%;
+}
+main >.imagen >figure >img{
+    width:auto;
+    height: 40vh;
+}
+
+/* main >section >h2 - contenido principal - seccion - subtitulo*/
+main >.nombre >h2{
+    font-size: 5rem;
+}
+
+/* main >.conocimiento >parrafo */
+main >.conocimiento >p{
+    font-size: 4rem;
+    margin: 0 3%;
+}
+
+/* main >.conocimiento >ul >li */
+main >.conocimiento >ul >li{
+    font-size: 3.5rem;
+} 
+/* footer - pie de pagina */
+
+footer >figure >a >img{
+    width: 15%;
+    margin: 0 3%;
+}
 }
