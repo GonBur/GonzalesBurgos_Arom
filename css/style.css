@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.7%;
+    height: 100%;
+}
+
+/* ajustes del body - contenedor padre */
+body{
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 10% 80% 10%;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+/* header - cabecera */
+header{
+    display: flex;
+    width: 100%;
+    /* grid-template-columns: 75% 25%; */
+    border-bottom: 0.3rem solid black;
+    border-radius: 0.5rem;
+    position: static;
+}
+/* button - boton de desplazamiento */
+header >button{
+    width: 15%;
+    /* display: none; */
+    border: none;
+    background-color: transparent;
+    text-align: center;
+}
+#boton >span {
+    font-size: 4rem;
+}
+
+/* header >h1 - cabecera y titulo */
+header >h1{
+    width: 85%;
+    font-size: 3.5rem;
+    text-align: center;
+    margin: auto;
+}    
+
+/* header >nav - menu de navegacion del header */
+header >nav{
+   /*  display: none; */
+    position: absolute;
+    top: 10%;
+    background-color: black;
+    height: 90vh;
+    width: 100vw;
+    left: 100%;
+    transition: left 0.5s;
+}
+.activo{
+    transition: left 0.5s;
+    /* display: none; */
+    left: 0%;
+    background-color: rgb(22, 21, 21);
+}
+
+/*  header >nav >ul >li - cabecera - menu de navegacion ul - listas*/
+header >nav >ul >li{
+    margin: 15% 22%;
+    list-style: none;
+    text-align: center;
+}
+header >nav >ul >li:hover{
+    border-bottom: solid #BBA999;
+}
+/*  header >nav >ul >li >a - cabecera - menu de navegacion ul - listas enlaces*/
+header >nav >ul >li >a{
+    font-size: 2.5rem;
+    text-decoration: none;
+    margin: 1%;
+    color: white;
+}
+header >nav >ul >li >a:hover{
+    text-decoration: line-through #03989E;
+}
+/* main - contenido principal */
+main{
+    padding-top: 10vh;
+    height: 80vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 43vh 35vh;
+    grid-template-areas: 
+    "imagen nombre"
+    "conocimiento conocimiento";
+    padding: 1%;
+}
+
+
+/* main >section >figure - contenido principal - figura */
+main >.imagen{
+    grid-area: imagen;
+    margin: auto;
+}
+main >.imagen >figure{
+    height: auto;
+    width: 85%;
+    margin: auto;
+}
+/* main >section >figure >img - contenido principal - figura - imagen */
+main >.imagen >figure >img{
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+    border-radius: 1rem;
+    border: solid black;
+    background-size: contain;
+}
+
+/* main >section >h2 - contenido principal - seccion - subtitulo*/
+main >.nombre{
+    grid-area: nombre;
+    margin: auto;
+}
+main >.nombre >h2{
+    font-size: 3.8rem;
+    text-align: center;
+}
+main >.nombre >h2 span{
+    color: #BBA889;
+}
+
+/* main >.conocimiento */
+main >.conocimiento{
+    width: 100%;
+    grid-area: conocimiento;
+}
+/* main >.conocimiento >parrafo */
+main >.conocimiento >p{
+    font-size: 2rem;
+    text-align: start;
+    margin: 0 2%;
+}
+/* main >.conocimiento > ul */
+main >.conocimiento >ul{
+    display: grid;
+    grid-template-columns: 46% 46%;
+    margin-left:8%;
+    font-weight: bold;
+} 
+/* main >.conocimiento >ul >li */
+main >.conocimiento >ul >li{
+    font-size: 1.6rem;
+    list-style-type: circle;
+    color: #03989E;
+} 
+/* footer - pie de pagina */
+footer{
+    margin: auto;
+    text-align: center;
+}
+
+footer >figure >a >img{
+    width: 22%;
+    margin: 0 3%;
+}
+
+/* modo tablet */
+@media (min-width:767px) and (max-width:1023px) {
+    
+}
