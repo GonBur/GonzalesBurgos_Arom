@@ -115,64 +115,8 @@ main{
 }
 
 
-/* main >section >figure - contenido principal - figura */
-main >.imagen{
-    grid-area: imagen;
-    margin: auto;
-}
-main >.imagen >figure{
-    height: auto;
-    width: 85%;
-    margin: auto;
-}
-/* main >section >figure >img - contenido principal - figura - imagen */
-main >.imagen >figure >img{
-    width: 100%;
-    height: 100%;
-    background-color: aliceblue;
-    border-radius: 1rem;
-    border: solid black;
-    background-size: contain;
-}
 
-/* main >section >h2 - contenido principal - seccion - subtitulo*/
-main >.nombre{
-    grid-area: nombre;
-    margin: auto;
-}
-main >.nombre >h2{
-    font-size: 3rem;
-    text-align: center;
-    font-family: 'Kalam', cursive;
-}
-main >.nombre >h2 span{
-    color: #BBA889;
-}
 
-/* main >.conocimiento */
-main >.conocimiento{
-    width: 100%;
-    grid-area: conocimiento;
-}
-/* main >.conocimiento >parrafo */
-main >.conocimiento >p{
-    font-size: 2rem;
-    text-align: start;
-    margin: 0 2%;
-}
-/* main >.conocimiento > ul */
-main >.conocimiento >ul{
-    display: grid;
-    grid-template-columns: 46% 46%;
-    margin-left:8%;
-    font-weight: bold;
-} 
-/* main >.conocimiento >ul >li */
-main >.conocimiento >ul >li{
-    font-size: 1.6rem;
-    list-style-type: circle;
-    color: #03989E;
-} 
 /* footer - pie de pagina */
 footer{
     margin: auto;
@@ -210,30 +154,10 @@ header >nav >ul >li >a{
     font-size: 4.5rem;
 }
 
-/* main >section >figure >img - contenido principal - figura - imagen */
-main > .imagen > figure {
-    width: 100%;
-}
-main >.imagen >figure >img{
-    width:auto;
-    height: 40vh;
-}
+/* main*/
 
-/* main >section >h2 - contenido principal - seccion - subtitulo*/
-main >.nombre >h2{
-    font-size: 5rem;
-}
 
-/* main >.conocimiento >parrafo */
-main >.conocimiento >p{
-    font-size: 4rem;
-    margin: 0 3%;
-}
 
-/* main >.conocimiento >ul >li */
-main >.conocimiento >ul >li{
-    font-size: 3.5rem;
-} 
 /* footer - pie de pagina */
 
 footer >figure >a >img{
@@ -308,24 +232,11 @@ main{
     "imagen conocimiento";
 }
 
-main >.imagen >figure{
-    width: 100%;
-}
 
-main >.nombre >h2{
-    font-size: 7.5rem;
-}
 
-/* main >.conocimiento >parrafo */
-main >.conocimiento >p{
-    font-size: 4rem;
-    margin-bottom: 2%;
-}
 
-/* main >.conocimiento >ul >li */
-main >.conocimiento >ul >li{
-    font-size: 4rem;
-} 
+
+
 /* footer - pie de pagina */
 footer{
     margin: auto;
