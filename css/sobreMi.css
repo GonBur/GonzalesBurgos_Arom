@@ -106,17 +106,43 @@ main{
     height: 80vh;
     width: 100%;
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 43vh 35vh;
-    grid-template-areas: 
-    "imagen nombre"
-    "conocimiento conocimiento";
+    grid-template-rows: 8vh 15vh 44vh 12vh;
     padding: 1%;
 }
 
+main h2{
+    font-size: 2.5rem;
+    margin: auto;
+}
 
+/* p - parrafo descriptivo */
+main >section >p{
+    font-size: 1.7rem;
+    text-align: justify;
+}
 
+/* contenido  */
+main >.contenido >p{
+    font-size: 2rem;
+}
 
+main >.contenido >ul{
+    
+}
+main >.contenido >ul >li{
+    font-size: 1.7rem;
+    margin: 2% 10%;
+    list-style-type: circle;
+}
+
+/* contenido  */
+main >.parrafo{
+    margin: auto;
+}
+main >.parrafo >p{
+    font-size: 2rem;
+    text-align: center;
+}
 /* footer - pie de pagina */
 footer{
     margin: auto;
