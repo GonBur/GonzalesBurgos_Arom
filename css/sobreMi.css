@@ -164,20 +164,20 @@ main >.contenido1 >ul >li{
 }
 @keyframes  cambiarImagen{
     0%{
-        background-image: url("/img/html5.png");
+        background-image: url("//img/html5.png");
     }
     15%{
-        background-image: url("/img/html5.png");
+        background-image: url("//img/html5.png");
     }
     33.3%{
-        background-image: url("/img/css3.png");
+        background-image: url("//img/css3.png");
     }
 
     66.6%{
-        background-image: url("/img/javascript.png");
+        background-image: url("//img/javascript.png");
     }
     99.9%{
-        background-image: url("/img/php.png");
+        background-image: url("//img/php.png");
     }
 }
 
