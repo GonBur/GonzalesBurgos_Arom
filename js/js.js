@@ -13,3 +13,9 @@ if (valor=="true") {
 } else {
     nav.classList.remove("activo")
 }
+
+
+/*  */
+function mostrar(){
+
+}

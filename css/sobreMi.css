@@ -54,6 +54,9 @@ header >h1 >a{
     color: black;
     text-decoration: none;
 }
+header >h1 >a:hover{
+    color: #095ea8;
+}
 /* header >nav - menu de navegacion del header */
 header >nav{
    /*  display: none; */
@@ -107,6 +110,7 @@ main{
     width: 100%;
     display: grid;
     grid-template-rows: 8vh 15vh 44vh 12vh;
+    grid-template-columns: 100%;
     padding: 1%;
 }
 
@@ -121,19 +125,6 @@ main >section >p{
     text-align: justify;
 }
 
-/* contenido  */
-main >.contenido >p{
-    font-size: 2rem;
-}
-
-main >.contenido >ul{
-    
-}
-main >.contenido >ul >li{
-    font-size: 1.7rem;
-    margin: 2% 10%;
-    list-style-type: circle;
-}
 
 /* contenido  */
 main >.parrafo{
@@ -143,6 +134,79 @@ main >.parrafo >p{
     font-size: 2rem;
     text-align: center;
 }
+
+/* contenido 1 */
+main >.contenido1{
+    background-color: crimson;
+}
+main >.contenido1 >p{
+    font-size: 2rem;
+}
+
+
+main >.contenido1 >ul >li{
+    font-size: 1.7rem;
+    margin: 2% 10%;
+    list-style-type: circle;
+}
+
+/* figure imagenes */
+.contenido1 figure{
+    position: absolute;
+    width: 35%;
+    height: 20%;
+    top: 58%;
+    left: 55%;
+    background-color: red;
+    animation: cambiarImagen 15s infinite;
+    background-size: cover;
+    background-position: center;
+}
+@keyframes  cambiarImagen{
+    0%{
+        background-image: url("/img/html5.png");
+    }
+    15%{
+        background-image: url("/img/html5.png");
+    }
+    33.3%{
+        background-image: url("/img/css3.png");
+    }
+
+    66.6%{
+        background-image: url("/img/javascript.png");
+    }
+    99.9%{
+        background-image: url("/img/php.png");
+    }
+}
+
+/* contenido 2 */
+.contenido2{
+    display: none;
+}
+
+/* contenido 3 */
+.contenido3{
+    display: none;
+}
+
+
+/* botones  */
+.boton_siguiente{
+    position: absolute;
+    top: 68%;
+    left: 15%;
+    width: 40%;
+    text-align: center;
+}
+.boton_siguiente button{
+    background-color: #03989E;
+    color: white;
+    font-size: 1rem;
+    margin: 0 10%;
+}
+
 /* footer - pie de pagina */
 footer{
     margin: auto;
@@ -156,11 +220,6 @@ footer >figure >a >img{
 
 /* modo tablet */
 @media (min-width:767px) and (max-width:1023px) {
-
-/* main - contenido principal */
-main{
-    grid-template-columns: 45% 55%;
-}
 
 /* header - cabecera */
 header{
@@ -249,14 +308,6 @@ header >nav >ul >li >a{
     color: black;
 }
 /* main - contenido principal */
-main{
-    display: grid;
-    grid-template-columns: 40% 60%;
-    grid-template-rows: 25vh 53vh;
-    grid-template-areas: 
-    "imagen nombre"
-    "imagen conocimiento";
-}
 
 
 
