@@ -157,7 +157,6 @@ main >.contenido1 >ul >li{
     height: 20%;
     top: 58%;
     left: 55%;
-    background-color: red;
     animation: cambiarImagen 15s infinite;
     background-size: cover;
     background-position: center;
