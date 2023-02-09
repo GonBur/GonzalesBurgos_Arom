@@ -67,7 +67,7 @@ header >nav{
     width: 100vw;
     /* left: 0; */
     transition:  0.3s;
-    overflow: hidden;
+    z-index: 1;
 }
 .activo{
     transition: all 0.3s;
@@ -75,7 +75,6 @@ header >nav{
     /* left: 100%; */
     top: 10%;
     background-color: rgb(22, 21, 21);
-    
 }
 /*  header >nav >ul >li - cabecera - menu de navegacion ul - listas*/
 header >nav >ul >li{
@@ -135,77 +134,76 @@ main >.parrafo >p{
     text-align: center;
 }
 
-/* contenido 1 */
-main >.contenido1{
-    background-color: crimson;
-}
-main >.contenido1 >p{
-    font-size: 2rem;
-}
-
-
-main >.contenido1 >ul >li{
-    font-size: 1.7rem;
-    margin: 2% 10%;
-    list-style-type: circle;
-}
 
 /* figure imagenes */
-.contenido1 figure{
+.imagen figure{
     position: absolute;
     width: 35%;
     height: 20%;
     top: 58%;
     left: 55%;
-    animation: cambiarImagen 15s infinite;
+    animation: cambiarImagen 25s infinite;
     background-size: cover;
     background-position: center;
 }
-@keyframes  cambiarImagen{
-    0%{
+@keyframes cambiarImagen{
+    10%{
         background-image: url("../img/html5.png");
     }
-    15%{
+    20%{
         background-image: url("../img/html5.png");
     }
-    33.3%{
+    30%{
         background-image: url("../img/css3.png");
     }
 
-    66.6%{
+    40%{
         background-image: url("../img/javascript.png");
     }
-    99.9%{
+    50%{
         background-image: url("../img/php.png");
     }
-}
-
-/* contenido 2 */
-.contenido2{
-    display: none;
-}
-
-/* contenido 3 */
-.contenido3{
-    display: none;
+    60%{
+        background-image: url("../img/mysql.png");
+    }
+    70%{
+        background-image: url("../img/figma.png");
+    }
+    80%{
+        background-image: url("../img/miro.png");
+    }
+    90%{
+        background-image: url("../img/github.png");
+    }
+    100%{
+        background-image: url("../img/visualcode.png");
+    }
 }
 
 
 /* botones  */
-.boton_siguiente{
+.botones{
     position: absolute;
     top: 68%;
-    left: 15%;
-    width: 40%;
+    left: 5%;
+    width: 50%;
     text-align: center;
+    display: inline;
 }
-.boton_siguiente button{
-    background-color: #03989E;
-    color: white;
+.botones button{
+    border: none;
     font-size: 1rem;
-    margin: 0 10%;
+    margin: 0 2%;
 }
 
+.botones span{
+    font-size: 3rem;
+    color: #03989E;
+}
+.botones span:hover{
+    background-color: #03989E;
+    color: white;
+}
 /* footer - pie de pagina */
 footer{
     margin: auto;

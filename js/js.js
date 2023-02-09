@@ -15,7 +15,3 @@ if (valor=="true") {
 }
 
 
-/*  */
-function mostrar(){
-
-}
