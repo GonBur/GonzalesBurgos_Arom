@@ -22,7 +22,7 @@ body{
 /* header - cabecera */
 header{
     display: flex;
-    width: 100%;
+    width: 98%;
     /* grid-template-columns: 75% 25%; */
     border-bottom: 0.1rem solid black;
     border-radius: 1rem;
@@ -122,8 +122,20 @@ main h2{
 main >section >p{
     font-size: 1.7rem;
     text-align: justify;
+    margin: 0 2%;
 }
-
+main >.contenido >p{
+    font-size: 2rem;
+    color: #095ea8;
+    text-shadow: .1rem .1rem .1rem  cadetblue;
+}
+main >.contenido ul{
+    margin-left: 7%;
+}
+main >.contenido li{
+    font-size: 1.5rem;
+    margin: 3% 2%;
+}
 
 /* contenido  */
 main >.parrafo{
@@ -139,15 +151,15 @@ main >.parrafo >p{
 .imagen figure{
     position: absolute;
     width: 35%;
-    height: 20%;
-    top: 58%;
-    left: 55%;
-    animation: cambiarImagen 25s infinite;
+    height: 25%;
+    top: 52%;
+    left: 60%;
+    animation: cambiarImagen 30s infinite;
     background-size: cover;
     background-position: center;
 }
 @keyframes cambiarImagen{
-    10%{
+    5%{
         background-image: url("../img/html5.png");
     }
     20%{
@@ -220,7 +232,7 @@ footer >figure >a >img{
 
 /* header - cabecera */
 header{
-    border-bottom: 0.2rem solid black;/*  */
+    border-bottom: 0.2rem solid black;
 }
 #boton >span {
     font-size: 5rem;
@@ -236,8 +248,72 @@ header >nav >ul >li >a{
     font-size: 4.5rem;
 }
 
-/* main*/
+/* main - contenido principal */
 
+main{
+    grid-template-rows: 8vh 9vh 49vh 12vh;
+}
+
+main h2{
+    font-size: 4rem;
+    margin: auto 5%;
+}
+
+/* p - parrafo descriptivo */
+main >section >p{
+    font-size: 2.8rem;
+    margin: 0 2%;
+}
+main .contenido p{
+    font-size: 5rem;
+}
+main >.contenido ul{
+    margin-left: 9%;
+}
+main >.contenido li{
+    font-size: 4rem;
+}
+
+/* contenido  */
+.mostrar_conocimiento iframe{
+    width: 100%;
+    height: 40vh;
+    overflow: hidden;
+}
+main >.parrafo >p{
+    font-size: 3rem;
+}
+
+
+/* figure imagenes */
+.imagen figure{
+    position: absolute;
+    width: 30%;
+    height: 25%;
+    top: 50%;
+    left: 65%;
+}
+
+
+
+/* botones  */
+.botones{
+    position: absolute;
+    top: 68%;
+    left: 5%;
+    width: 50%;
+    text-align: center;
+    display: inline;
+}
+.botones button{
+    border: none;
+    font-size: 1rem;
+    margin: 0 2%;
+}
+
+.botones span{
+    font-size: 6rem;
+}
 
 
 /* footer - pie de pagina */
@@ -304,8 +380,75 @@ header >nav >ul >li >a{
     font-size: 3.5rem;
     color: black;
 }
+
 /* main - contenido principal */
 
+main{
+    grid-template-rows: 8vh 9vh 49vh 12vh;
+}
+
+main h2{
+    font-size: 4.5rem;
+}
+
+/* p - parrafo descriptivo */
+main >section >p{
+    font-size: 3.5rem;
+    margin: 0 4%;
+}
+
+/* contenido  */
+main .contenido p{
+    font-size: 5rem;
+}
+main >.contenido ul{
+    margin-left: 9%;
+
+}
+main >.contenido li{
+    font-size: 4rem;
+    margin: 1%;
+}
+
+.mostrar_conocimiento iframe{
+    width: 100%;
+    height: 40vh;
+    overflow: hidden;
+}
+main >.parrafo >p{
+    font-size: 3rem;
+}
+
+
+/* figure imagenes */
+.imagen figure{
+    position: absolute;
+    width: 20%;
+    height: 40%;
+    top: 50%;
+    left: 70%;
+}
+
+
+
+/* botones  */
+.botones{
+    position: absolute;
+    top: 68%;
+    left: 5%;
+    width: 50%;
+    text-align: center;
+    display: inline;
+}
+.botones button{
+    border: none;
+    font-size: 1rem;
+    margin: 0 2%;
+}
+
+.botones span{
+    font-size: 6rem;
+}
 
 
 
