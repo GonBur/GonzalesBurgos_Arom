@@ -180,6 +180,7 @@ main >.conocimiento >ul >li{
 footer{
     margin: auto;
     text-align: center;
+    background-color: white;
 }
 
 footer >figure >a >img{

@@ -108,7 +108,7 @@ main{
     height: 80vh;
     width: 100%;
     display: grid;
-    grid-template-rows: 8vh 15vh 44vh 12vh;
+    grid-template-rows: 8vh 15vh 40vh 16vh;
     grid-template-columns: 100%;
     padding: 1%;
 }
@@ -121,7 +121,6 @@ main h2{
 /* p - parrafo descriptivo */
 main >section >p{
     font-size: 1.7rem;
-    text-align: justify;
     margin: 0 2%;
 }
 main >.contenido >p{
@@ -220,6 +219,7 @@ main >.parrafo >p{
 footer{
     margin: auto;
     text-align: center;
+    background-color: white;
 }
 
 footer >figure >a >img{
