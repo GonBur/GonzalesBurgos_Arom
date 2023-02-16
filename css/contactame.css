@@ -105,20 +105,43 @@ header >nav >ul >li >a:hover{
 
 /* main - contenido principal */
 main{
-    padding-top: 10vh;
     height: 80vh;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 43vh 35vh;
-    grid-template-areas: 
-    "imagen nombre"
-    "conocimiento conocimiento";
+    margin: 2% 0;
+}
+main >h2{
+    font-size: 3rem;
+    margin: 1% 2%;
+    color: #004AAD;
+    height: 10%;
     padding: 1%;
 }
 
+/* opciones de contacto */
+main section{
+    margin: 3% 1%;
+    background-color: aliceblue;
+    height: 40%;
+    text-align: center;
+    width: 98%;
+    padding: 10% 0;
+}
+main section a{
+    font-size: 1.7rem;
+    text-decoration: none;
+    color: rgb(21, 127, 220);
+}
+main section a:hover{
+    color: #004AAD;
+}
+main section p{
+    text-align: start;
+    margin: 2% 3%;
+    padding: 1%;
+    color: #03989E;
+    font-size: 2.5rem;
+    font-weight: bold;
 
-
+}
 
 /* footer - pie de pagina */
 footer{
@@ -157,7 +180,21 @@ header >nav >ul >li >a{
     font-size: 4.5rem;
 }
 
-/* main*/
+/* main - contenido principal */
+main >h2{
+    font-size: 4.5rem;
+
+}
+
+/* opciones de contacto */
+
+main section a{
+    font-size: 3.5rem;
+}
+
+main section p{
+    font-size: 4rem;
+}
 
 
 
@@ -226,19 +263,23 @@ header >nav >ul >li >a{
     color: black;
 }
 /* main - contenido principal */
-main{
-    display: grid;
-    grid-template-columns: 40% 60%;
-    grid-template-rows: 25vh 53vh;
-    grid-template-areas: 
-    "imagen nombre"
-    "imagen conocimiento";
+main >h2{
+    font-size: 5.5rem;
 }
 
+/* opciones de contacto */
+main section{
+    height: 30%;
+    padding:0;
+}
+main section a{
+    font-size: 4rem;
+}
 
-
-
-
+main section p{
+    margin: 0 20%;
+    font-size: 4.5rem;
+}
 
 /* footer - pie de pagina */
 footer{
