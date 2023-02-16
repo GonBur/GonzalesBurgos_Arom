@@ -124,6 +124,7 @@ main section{
 footer{
     margin: auto;
     text-align: center;
+    background-color: white;
 }
 
 footer >figure >a >img{
