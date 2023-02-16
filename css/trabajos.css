@@ -111,11 +111,11 @@ main{
     grid-template-columns: 1fr;
     grid-template-rows: 40vh 40vh 40vh;
     overflow-y: scroll;
+    
 }
 main section{
     background-color: #6AD2D6;
-    margin: 4% 2%;
-
+    margin: 2% 2% 5%;
 }
 
 
@@ -124,7 +124,7 @@ main section{
 footer{
     margin: auto;
     text-align: center;
-    background-color: white;
+    background-color: rgb(0, 0, 0);
 }
 
 footer >figure >a >img{
