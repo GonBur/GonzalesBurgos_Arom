@@ -110,12 +110,11 @@ main{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 40vh 40vh 40vh;
-
     overflow-y: scroll;
 }
 main section{
     background-color: #6AD2D6;
-    margin: 2%;
+    margin: 4% 2%;
 
 }
 
