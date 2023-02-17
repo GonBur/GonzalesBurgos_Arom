@@ -105,7 +105,7 @@ header >nav >ul >li >a:hover{
 
 /* main - contenido principal */
 main{
-    height: 80vh;
+    height: 76vh;
     margin: 2% 0;
 }
 main >h2{
@@ -120,9 +120,9 @@ main >h2{
 main section{
     margin: 3% 1%;
     background-color: aliceblue;
-    height: 40%;
+    height: 98%;
     text-align: center;
-    width: 98%;
+    width: 94%;
     padding: 10% 0;
 }
 main section a{
@@ -140,7 +140,6 @@ main section p{
     color: #03989E;
     font-size: 2.5rem;
     font-weight: bold;
-
 }
 
 /* footer - pie de pagina */

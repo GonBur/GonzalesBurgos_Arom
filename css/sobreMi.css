@@ -138,7 +138,7 @@ main >.contenido li{
 
 /* contenido  */
 main >.parrafo{
-    margin: 8% auto;
+    margin: 1% auto auto;
     background-color: #dbefef;
     border-radius: 1rem;
     color: #03989E;
@@ -155,7 +155,7 @@ main >.parrafo >p{
     position: absolute;
     width: 40%;
     height: 25%;
-    top: 50%;
+    top: 46%;
     left: 60%;
     animation: cambiarImagen 30s infinite;
     background-size: cover;
@@ -199,7 +199,7 @@ main >.parrafo >p{
 /* botones  */
 .botones{
     position: absolute;
-    top: 68%;
+    top: 64%;
     left: 5%;
     width: 50%;
     text-align: center;
