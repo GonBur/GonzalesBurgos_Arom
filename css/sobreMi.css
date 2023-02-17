@@ -139,6 +139,10 @@ main >.contenido li{
 /* contenido  */
 main >.parrafo{
     margin: 8% auto;
+    background-color: #dbefef;
+    border-radius: 1rem;
+    color: #03989E;
+    font-weight: bold;
 }
 main >.parrafo >p{
     font-size: 2rem;
@@ -421,7 +425,6 @@ main >.contenido li{
 /* contenido  */
 main >.parrafo{
     margin: auto;
-    background-color: red;
 }
 main >.parrafo >p{
     font-size: 3rem;
