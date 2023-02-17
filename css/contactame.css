@@ -118,11 +118,11 @@ main >h2{
 
 /* opciones de contacto */
 main section{
-    margin: 3% 1%;
+    margin: 3% auto;
     background-color: aliceblue;
     height: 40%;
     text-align: center;
-    width: 94%;
+    width: 98%;
     padding: 10% 0;
 }
 main section a{
