@@ -104,20 +104,27 @@ header >nav >ul >li >a:hover{
 }
 
 /* main - contenido principal */
-main{
-    padding-top: 10vh;
-    height: 80vh;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 43vh 35vh;
-    grid-template-areas: 
-    "imagen nombre"
-    "conocimiento conocimiento";
-    padding: 1%;
+/* h2 subtitulo */
+main h2{
+    font-size: 2.5rem;
+    text-align: center;
+    color: #004AAD;
 }
 
-
+main div{
+    margin-top: 2%;
+    height: 60vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40vh 40vh 40vh 40vh 40vh 40vh;
+    overflow-y: scroll;
+    
+}
+main section{
+    background-color: #6AD2D6;
+    margin: 2% 4% 5%;
+}
 
 
 /* footer - pie de pagina */
@@ -158,8 +165,25 @@ header >nav >ul >li >a{
     font-size: 4.5rem;
 }
 
-/* main*/
+/* main - contenido principal */
+/* h2 subtitulo */
+main h2{
+    font-size: 4rem;
+    margin: 0 2%;
+}
 
+main div{
+    height: 70vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40vh 40vh 40vh;
+    
+}
+main section{
+    background-color: #6AD2D6;
+    margin: 2% 2% 8%;
+}
 
 
 /* footer - pie de pagina */
@@ -226,19 +250,25 @@ header >nav >ul >li >a{
     font-size: 3.5rem;
     color: black;
 }
+
 /* main - contenido principal */
-main{
-    display: grid;
-    grid-template-columns: 40% 60%;
-    grid-template-rows: 25vh 53vh;
-    grid-template-areas: 
-    "imagen nombre"
-    "imagen conocimiento";
+/* h2 subtitulo */
+main h2{
+    font-size: 4.5rem;
+    margin-top: 2%;
 }
-
-
-
-
+main div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 34vh 34vh;
+    padding: 0;
+    height: 80vh;
+    overflow: hidden;
+}
+main section{ 
+    margin: 2% 10%;
+    width: 80%;
+}
 
 
 /* footer - pie de pagina */
