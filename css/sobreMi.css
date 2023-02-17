@@ -421,6 +421,7 @@ main >.contenido li{
 /* contenido  */
 main >.parrafo{
     margin: auto;
+    background-color: red;
 }
 main >.parrafo >p{
     font-size: 3rem;
