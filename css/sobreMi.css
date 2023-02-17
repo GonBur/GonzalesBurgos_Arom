@@ -108,7 +108,7 @@ main{
     height: 80vh;
     width: 100%;
     display: grid;
-    grid-template-rows: 8vh 15vh 40vh 16vh;
+    grid-template-rows: 8vh 15vh 38vh 16vh;
     grid-template-columns: 100%;
     padding: 1%;
 }
@@ -138,7 +138,7 @@ main >.contenido li{
 
 /* contenido  */
 main >.parrafo{
-    margin: auto;
+    margin: 8% auto;
 }
 main >.parrafo >p{
     font-size: 2rem;
@@ -149,9 +149,9 @@ main >.parrafo >p{
 /* figure imagenes */
 .imagen figure{
     position: absolute;
-    width: 35%;
+    width: 40%;
     height: 25%;
-    top: 52%;
+    top: 50%;
     left: 60%;
     animation: cambiarImagen 30s infinite;
     background-size: cover;
