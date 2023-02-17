@@ -417,6 +417,11 @@ main >.contenido li{
     height: 40vh;
     overflow: hidden;
 }
+
+/* contenido  */
+main >.parrafo{
+    margin: auto;
+}
 main >.parrafo >p{
     font-size: 3rem;
 }
