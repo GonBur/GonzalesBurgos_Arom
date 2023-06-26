@@ -345,7 +345,7 @@ body{
 header{
     display: flex;
     width: 100%;
-    grid-template-columns: 35% 65%;
+    grid-template-columns: 30% 70%;
     border-bottom: none;
     position: static;
     /* overflow: hidden; */
@@ -360,8 +360,8 @@ header >button{
 
 /* header >h1 - cabecera y titulo */
 header >h1{
-    width: 35%;
-    font-size: 7rem;
+    width: 30%;
+    font-size: 6rem;
 }    
 
 /* header >nav - menu de navegacion del header */
@@ -371,17 +371,19 @@ header >nav{
     align-items: center;
     position: static;
     height: 10vh;
-    width: 65%;
+    width: 70%;
     background-color: white;
+    
 }
 /*  header >nav >ul >li - cabecera - menu de navegacion ul - listas*/
 header >nav >ul >li{
     display: inline;
-    margin: 0 1%;
+    margin: 0;
+    
 }
 /*  header >nav >ul >li >a - cabecera - menu de navegacion ul - listas enlaces*/
 header >nav >ul >li >a{
-    font-size: 3.5rem;
+    font-size: 3rem;
     color: black;
 }
 
